@@ -2,51 +2,62 @@
 <html lang="en">
 
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155087500-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155087500-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-        gtag("config", "UA-155087500-1");
-    </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>K-pop</title>
-    <link rel="stylesheet" href="./css/style-inwoo.css" />
+    gtag("config", "UA-155087500-1");
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>K-POP</title>
+  <link rel="stylesheet" href="./css/style-inwoo.css" />
 </head>
 
 <body>
-    <div class="kpop__top">
-        <a href="#" class="backspace">
-            <</a> <img src="./img/kandy.svg" alt="캔디로고" />
+  <div class="kpop__top">
+    <a href="https://kandytokV2.herokuapp.com" class="backspace">
+      <</a> <img src="./img/kandy.svg" alt="캔디로고" />
+  </div>
+
+  <div class="explanations">
+    <p>원하는 스타의</p>
+    <p>정보를 확인해보세요!</p>
+    <img src="./img/line.svg" alt="파란선" />
+  </div>
+
+  <div class="celebrities">
+    <div class="celebrities__align">
+      <a href="https://kandytokV2.herokuapp.com/post/bts">
+        <div class="circle"><img src="/img/bts.png" alt=""></div>
+        <p>BTS</p>
+      </a>
     </div>
 
-    <div class="explanations">
-        <p>원하는 스타의</p>
-        <p>정보를 확인해보세요!</p>
-        <img src="./img/line.svg" alt="파란선" />
+    <div class="celebrities__align">
+      <a href="https://kandytokV2.herokuapp.com/post/exo">
+        <div class="circle"><img src="/img/exo.png" alt=""></div>
+        <p>EXO</p>
+      </a>
     </div>
 
-    <div class="celebrities">
-        <div class="celebrities__align">
-            <div class="circle"></div>
-            BTS
-        </div>
-        <div class="celebrities__align">
-            <div class="circle"></div>
-            EXO
-        </div>
-        <div class="celebrities__align">
-            <div class="circle"></div>
-            Twice
-        </div>
+
+    <div class="celebrities__align">
+      <a href="https://kandytokV2.herokuapp.com/post/twice">
+        <div class="circle"><img src="/img/twice.png" alt=""></div>
+        <p>Twice</p>
+      </a>
     </div>
-    <!-- Channel Plugin Scripts -->
-    <!-- <script>
+
+
+  </div>
+  <!-- Channel Plugin Scripts -->
+  <!-- <script>
       (function() {
         var w = window;
         if (w.ChannelIO) {
@@ -89,7 +100,7 @@
         pluginKey: "2510c841-9fc6-4537-a0c9-52d3dfa88db3"
       });
     </script> -->
-    <!-- End Channel Plugin -->
+  <!-- End Channel Plugin -->
 </body>
 
 </html>

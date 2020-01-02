@@ -49,13 +49,32 @@ body {
   margin-bottom: 33px;
 }
 
+.celebrities__align a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.celebrities__align p {
+  text-align: center;
+}
+
 .name {
   width: 40px;
   height: 17px;
   margin-top: 3px;
 }
 
-.circle {
+/* .circle {
+  width: 112px;
+  height: 112px;
+  border: solid 1px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+} */
+
+.circle img {
   width: 112px;
   height: 112px;
   border: solid 1px;
@@ -103,6 +122,11 @@ body {
   margin-bottom: 33px;
 }
 
+.align_rows a {
+  text-decoration: none;
+  color: black;
+}
+
 .members__align {
   width: 112px;
   display: flex;
@@ -130,6 +154,11 @@ body {
   margin-bottom: 93px;
 }
 
+.spot_align_rows a {
+  text-decoration: none;
+  color: black;
+}
+
 .align__titles {
   /* margin-top: 62px; */
   margin-bottom: 46px;
@@ -152,6 +181,10 @@ body {
 .img_frame {
   margin-top: 22px;
   margin-bottom: 26px;
+}
+
+.img_frame img {
+  width: 375px;
 }
 .content {
   width: 375px;
