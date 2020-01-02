@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 375px;
+}
+
+.kpop__top {
+  margin-top: 24px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.kpop__top img {
+  margin-left: 130px;
+}
+
+.backspace {
+  /* width: 7.5px;
+  height: 14.9px; */
+  text-decoration: none;
+  margin-left: 34.6px;
+}
+
+.explanations {
+  margin-left: 34px;
+  margin-top: 43px;
+}
+.explanations p {
+  font-weight: bold;
+}
+
+.celebrities {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.celebrities__align {
+  /* width: 112px;
+  height: 150px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 33px;
+}
+
+.name {
+  width: 40px;
+  height: 17px;
+  margin-top: 3px;
+}
+
+.circle {
+  width: 112px;
+  height: 112px;
+  border: solid 1px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+/* bts.html */
+
+.bts__top {
+  display: flex;
+  align-items: center;
+}
+.bts__top__logo {
+  margin-top: 24px;
+  margin-left: 33px;
+}
+.bts__top .menu-bar {
+  margin-top: 24px;
+  margin-left: 250px;
+}
+
+.bts__explanations {
+  margin-left: 34px;
+  margin-top: 67px;
+}
+
+.bts__explanations p {
+  font-weight: bold;
+}
+
+.members {
+  margin-top: 36px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.align_rows {
+  width: 375px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 33px;
+}
+
+.members__align {
+  width: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* historical.html */
+
+.spot__align {
+  width: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spot_align_rows {
+  width: 375px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 93px;
+}
+
+.align__titles {
+  /* margin-top: 62px; */
+  margin-bottom: 46px;
+  width: 375px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.align__titles p {
+  font-weight: bold;
+}
+
+.main-content {
+  margin-top: 62px;
+}
+
+/* post.html */
+
+.img_frame {
+  margin-top: 22px;
+  margin-bottom: 26px;
+}
+.content {
+  width: 375px;
+}
+.content_title {
+  margin-left: 34px;
+  font-weight: bold;
+}
+.content p {
+  margin-top: 16px;
+  width: 307px;
+  margin-left: 34px;
+}

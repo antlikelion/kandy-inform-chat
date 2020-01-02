@@ -1,0 +1,99 @@
+body {
+  margin-left: 34px;
+  margin-right: 34px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box-image {
+  width: 150px;
+}
+
+/* navbar */
+.nav-bar {
+  display: flex;
+  margin-top: 24px;
+}
+
+.menu-bar {
+  margin-left: 251px;
+}
+
+.words {
+  margin-top: 56px;
+  font-size: 15pt;
+  word-break: break-all;
+  width: 300px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #3b3b3b;
+}
+
+/* information */
+
+.words2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15pt;
+  font-weight: 500;
+  color: #3b3b3b;
+}
+.line {
+  margin-left: -5px;
+  width: 235px;
+}
+
+/* boxes */
+.boxes {
+  margin-top: 23px;
+}
+.box {
+  display: flex;
+  width: 307px;
+  height: 132px;
+  margin-bottom: 16px;
+  border-radius: 19px;
+  border: solid 0.5px #2d3dce45;
+}
+.box-image {
+  width: 112px;
+  height: 132px;
+  object-fit: contain;
+}
+.box-right {
+  margin-top: 18px;
+  margin-left: 18px;
+}
+.themes {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #3b3b3b;
+}
+.box-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #3b3b3b;
+  font-size: 11pt;
+  word-break: break-all;
+  width: 140px;
+}
+
+.box-info-history {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #3b3b3b;
+  font-size: 11pt;
+  word-break: break-all;
+  width: 110px;
+}
+
+.talk-icon {
+  margin-left: -20px;
+  margin-top: 70px;
+}
+
+.talk-icon2 {
+  margin-left: 10px;
+  margin-top: 70px;
+}
