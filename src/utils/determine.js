@@ -32,7 +32,7 @@ exports.determine = (topic, object) => {
       break;
     case "kfc":
       object.title = "Korean fried chicken";
-      object.imgSrc = "/img/sundubu.png";
+      object.imgSrc = "/img/kfc.png";
       object.mid_title = "Korean fried chicken(KFC)";
       object.content = [
         'Korean fried chicken or KFC, usually called chikin (치킨, from the English "chicken") in Korea, refers to a variety of fried chicken dishes from South Korea, including the basic huraideu-chikin (후라이드 치킨, from the English "fried chicken") and spicy yangnyeom-chikin (양념 치킨, "seasoned chicken"). In South Korea, fried chicken is consumed as a meal, an appetizer, anju (food that is served and eaten with drinks), or as an after-meal snack. ',
