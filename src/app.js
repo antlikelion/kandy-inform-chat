@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 const pubilcDirectoryPath = path.join(__dirname, "../public");
 const hbs = require("hbs");
-const { determine } = require("./utils/determine");
+const { determine, determineLong } = require("./utils/determine");
 
 app.use(express.static(pubilcDirectoryPath));
 
@@ -53,6 +53,18 @@ app.get("/post/:topic", (req, res) => {
   determine(req.params.topic, object);
 
   res.render("post", object);
+});
+
+app.get("/post-long/:topic", (req, res) => {
+  let object = {
+    title: "",
+    imgSrc: "",
+    mid_title: "",
+    content: []
+  };
+  determineLong(req.params.topic, object);
+
+  res.render("post-long", object);
 });
 
 app.listen(port, () => {
