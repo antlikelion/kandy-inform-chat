@@ -135,6 +135,10 @@ body {
   align-items: center;
 }
 
+.members__align p {
+  text-align: center;
+}
+
 /* historical.html */
 
 .spot__align {
