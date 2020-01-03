@@ -11,7 +11,7 @@ app.use(express.static(pubilcDirectoryPath));
 app.set("view engine", "hbs");
 
 hbs.registerHelper("list", function(context, options) {
-  let ret = "<div>";
+  let ret = "<div class='margin-top'>";
   for (let i = 0, j = context.length; i < j; i++) {
     ret = ret + "<div class='content-words'>" + context[i] + "</div><br />";
   }
@@ -20,7 +20,7 @@ hbs.registerHelper("list", function(context, options) {
 });
 
 hbs.registerHelper("list2", function(context, options) {
-  let ret = '<div class="margin-bottom">';
+  let ret = "<div>";
   for (let i = 0, j = context.length; i < j; i++) {
     ret = ret + "<span class='content_title'>" + context[i] + "</span><br />";
   }
