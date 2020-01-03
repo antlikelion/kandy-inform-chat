@@ -20,7 +20,7 @@ hbs.registerHelper("list", function(context, options) {
 });
 
 hbs.registerHelper("list2", function(context, options) {
-  let ret = "<div>";
+  let ret = '<div class="margin-bottom">';
   for (let i = 0, j = context.length; i < j; i++) {
     ret = ret + "<span class='content_title'>" + context[i] + "</span><br />";
   }
