@@ -114,7 +114,7 @@ exports.determine = (topic, object) => {
       ];
       break;
     case "wmok":
-      object.title = "War Memorial of Korea";
+      object.title = "War Memorial";
       object.imgSrc = "/img/war-memorial-of-korea.png";
       object.mid_title = "War Memorial of Korea";
       object.content = [

@@ -11,9 +11,9 @@ app.use(express.static(pubilcDirectoryPath));
 app.set("view engine", "hbs");
 
 hbs.registerHelper("list", function(context, options) {
-  var ret = "<div>";
-  for (var i = 0, j = context.length; i < j; i++) {
-    ret = ret + "<p>" + context[i] + "</p><br />";
+  let ret = "<div>";
+  for (let i = 0, j = context.length; i < j; i++) {
+    ret = ret + "<div class='content-words'>" + context[i] + "</div><br />";
   }
 
   return ret + "</div>";
