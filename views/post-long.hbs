@@ -34,7 +34,10 @@
     </div>
 
     <div class="content">
-        <span class="content_title">{{mid_title}}</span>
+        {{#list2 mid_title}}
+        {{mid_title}}
+        {{/list2}}
+
         {{#list content}}
         <div class="content-words">
             {{content}}

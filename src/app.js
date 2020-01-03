@@ -19,6 +19,15 @@ hbs.registerHelper("list", function(context, options) {
   return ret + "</div>";
 });
 
+hbs.registerHelper("list2", function(context, options) {
+  let ret = "<div>";
+  for (let i = 0, j = context.length; i < j; i++) {
+    ret = ret + "<span class='content_title'>" + context[i] + "</span><br />";
+  }
+
+  return ret + "</div>";
+});
+
 app.get("", (req, res) => {
   res.render("index");
 });
@@ -59,7 +68,7 @@ app.get("/post-long/:topic", (req, res) => {
   let object = {
     title: "",
     imgSrc: "",
-    mid_title: "",
+    mid_title: [],
     content: []
   };
   determineLong(req.params.topic, object);

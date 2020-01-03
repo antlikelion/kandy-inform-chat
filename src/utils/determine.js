@@ -144,7 +144,7 @@ exports.determineLong = (topic, object) => {
     case "kfc":
       object.title = "Korean fried chicken";
       object.imgSrc = "/img/kfc.png";
-      object.mid_title = "Korean fried chicken(KFC)";
+      object.mid_title = ["Korean fried", "chicken(KFC)"];
       object.content = [
         'Korean fried chicken or KFC, usually called chikin (치킨, from the English "chicken") in Korea, refers to a variety of fried chicken dishes from South Korea, including the basic huraideu-chikin (후라이드 치킨, from the English "fried chicken") and spicy yangnyeom-chikin (양념 치킨, "seasoned chicken"). In South Korea, fried chicken is consumed as a meal, an appetizer, anju (food that is served and eaten with drinks), or as an after-meal snack. ',
         'Korean fried chicken differs from typical American fried chicken because it is fried twice; the skin is therefore crunchier and less greasy. Furthermore, Korean-style chicken is not characterized by the crags and crusty nubs associated with American fried chicken; it was described by Julia Moskin of The New York Times as a "thin, crackly and almost transparent crust". The chicken is usually seasoned with spices, sugar, and salt, prior to and after being fried. Korean fried chicken restaurants commonly use small- or medium-sized chickens; these younger chickens result in more tender meat. After frying, the chicken is usually hand-painted with sauce using a brush in order to evenly coat the chicken with a thin layer. Pickled radishes, beer, and soju are often served with Korean fried chicken.',
@@ -154,7 +154,7 @@ exports.determineLong = (topic, object) => {
     case "wmok":
       object.title = "War Memorial";
       object.imgSrc = "/img/war-memorial-of-korea.png";
-      object.mid_title = "War Memorial of Korea";
+      object.mid_title = ["War Memorial", "of Korea"];
       object.content = [
         "The War Memorial of Korea is located in Yongsan-dong, Yongsan-gu, Seoul, South Korea. It opened in 1994 on the former site of the army headquarters to exhibit and memorialize the military history of Korea. It was built for the purpose of preventing war through lessons from the Korean War and for the hoped for peaceful reunification of North and South Korea. The memorial building has six indoor exhibition rooms and an outdoor exhibition centre displaying war memorabilia and military equipment from China,South Korea and United States.",
         "The War Memorial was built to commemorate actors and victims in the wars which led to the modern nation state. The museum also has the purpose of educating future generations by collecting, preserving, and exhibiting various historical relics and records related to the many wars fought in the country from a South Korean perspective.",
@@ -164,7 +164,7 @@ exports.determineLong = (topic, object) => {
     case "dmz":
       object.title = "Korean Demilitarized Zone";
       object.imgSrc = "/img/dmz-2.png";
-      object.mid_title = "Korean Demilitarized Zone(DMZ)";
+      object.mid_title = ["Korean Demilitarized", "Zone(DMZ)"];
       object.content = [
         "The Korean Demilitarized is a strip of land running across the Korean Peninsula. It is established by the provisions of the Korean Armistice Agreement to serve as a buffer zone between North Korea and South Korea. The demilitarized zone (DMZ) is a border barrier that divides the Korean Peninsula roughly in half. It was created by agreement between North Korea, China and the United Nations Command in 1953. The DMZ is 250 kilometres (160 miles) long, and about 4 kilometres (2.5 miles) wide.",
         'The 38th parallel north—which divides the Korean Peninsula roughly in half—was the original boundary between the United States and Soviet Union\'s brief administration areas of Korea at the end of World War II. Upon the creation of the Democratic People\'s Republic of Korea (DPRK, informally "North Korea") and the Republic of Korea (ROK, informally "South Korea") in 1948, it became a de facto international border and one of the most tense fronts in the Cold War.',
@@ -175,7 +175,7 @@ exports.determineLong = (topic, object) => {
     case "myeongdong":
       object.title = "Myeongdong Cathedral";
       object.imgSrc = "/img/myeongdong-cathedral.png";
-      object.mid_title = "Myeongdong Cathedral";
+      object.mid_title = ["Myeongdong", "Cathedral"];
       object.content = [
         "The Cathedral Church of Virgin Mary of the Immaculate Conception, informally known as Myeongdong Cathedral, is the national cathedral of the Roman Catholic Archdiocese of Seoul. Located in the Myeongdong neighborhood of Jung-gu, Seoul, South Korea, it is the seat of the Archbishop of Seoul Cardinal Andrew Yeom Soo-jung, the highest Roman Catholic prelate of the nation.",
         "Dedicated to Blessed Virgin Mary, the Immaculate Conception is the principal Patroness of Korea by a Pontifical decree accorded by Pope Gregory XVI in 1841. The cathedral serves as a community landmark, tourist attraction, and a notable symbol of Roman Catholicism in Korea. The Korean government assigned the cathedral as a historic site (No. # 258) on 22 November 1977, making it a cultural property and asset of the country.",
